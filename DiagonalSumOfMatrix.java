@@ -31,7 +31,6 @@ class DiagonalSumOfMatrix
 
         for (int i = 0; i < n; i++){
             primaryDiagonal += array[i][i];
-            System.out.println(primaryDiagonal);
             secondaryDiagonal += array[i][n-1-i];
         }
 
