@@ -1,4 +1,4 @@
-import java.util.Arrays;
+//import java.util.Arrays;
 import java.util.Scanner;
 
 class DiagonalSumOfMatrix
@@ -23,7 +23,7 @@ class DiagonalSumOfMatrix
             System.out.println();
         }
         //print array (debug)
-        System.out.println(Arrays.deepToString(array));
+        //System.out.println(Arrays.deepToString(array));
 
         //iterate trough the matrix
         int primaryDiagonal = 0;
