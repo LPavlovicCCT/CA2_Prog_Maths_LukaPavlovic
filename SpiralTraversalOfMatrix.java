@@ -38,7 +38,7 @@ class SpiralTraversalOfMatrix
         while (top<= bot && left <= right){
             //left to right
             for (int i = left; i <= right; i++) {
-                System.out.print(array[top][i])+" ";
+                System.out.print(array[top][i]+" ");
             }
             top++;
             //top to bottom
