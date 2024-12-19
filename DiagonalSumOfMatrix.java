@@ -29,15 +29,15 @@ class DiagonalSumOfMatrix
         int primaryDiagonal = 0;
         int secondaryDiagonal = 0;
 
-        for (int i = 0; 1 < n; i++){
+        for (int i = 0; i < n; i++){
             primaryDiagonal += array[i][i];
             System.out.println(primaryDiagonal);
-            secondaryDiagonal += array[i][n-i-1];
+            secondaryDiagonal += array[i][n-1-i];
         }
 
         //print results
-        System.out.println("Sum of all elements in the primary diagonal is =" + primaryDiagonal );
-        System.out.println("Sum of all elements in the secondary diagonal is =" + secondaryDiagonal);
+        System.out.println("Sum of all elements in the primary diagonal is = " + primaryDiagonal );
+        System.out.println("Sum of all elements in the secondary diagonal is = " + secondaryDiagonal);
 
         reader.close();
     }
