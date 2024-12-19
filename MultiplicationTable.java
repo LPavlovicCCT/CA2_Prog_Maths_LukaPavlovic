@@ -20,7 +20,12 @@ class MultiplicationTable
         }
 
         //print the table out
-        
+        for (int i = 0; i < n; i++){
+            for (int j = 0; j<n; j++){
+                System.out.print(multTable[i][j] + "  ");
+            }
+            System.out.println();
+        }
 
         tableSize.close();
     }
