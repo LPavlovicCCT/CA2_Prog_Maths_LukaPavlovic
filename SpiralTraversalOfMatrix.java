@@ -38,22 +38,22 @@ class SpiralTraversalOfMatrix
         while (top<= bot && left <= right){
             //left to right
             for (int i = left; i <= right; i++) {
-                System.out.print(array[top][i]);
+                System.out.print(array[top][i])+" ";
             }
             top++;
             //top to bottom
             for (int i = top; i <= bot; i++) {
-                System.out.print(array[i][right]);
+                System.out.print(array[i][right]+" ");
             }
             right--;
             //right to left
             for (int i = right; i >= left; i--) {
-                System.out.print(array[bot][i]);
+                System.out.print(array[bot][i]+" ");
             }
             bot--;
             //bottom to top
             for (int i = bot; i <= top; i--) {
-                System.out.print(array[i][left]);
+                System.out.print(array[i][left]+" ");
             }
             left++;
         }

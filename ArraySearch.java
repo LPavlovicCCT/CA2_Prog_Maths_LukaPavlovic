@@ -41,7 +41,7 @@ public class ArraySearch
                 }
             }
         }
-        if (repeater == false) {System.out.println("No repeating elements");}
+        if (repeater == false) {System.out.println("No repeating elements found.");}
         // close scanner
         reader.close();
     }
