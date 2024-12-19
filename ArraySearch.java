@@ -20,7 +20,7 @@ public class ArraySearch
         System.out.println("Enter the " + lenght + " elements of the array");
         for (int i = 0; i < lenght; i++){
             System.out.print("["+i+"]=");
-            array[1] = reader.nextInt();
+            array[i] = reader.nextInt();
         }
 
         System.out.println(Arrays.toString(array));
