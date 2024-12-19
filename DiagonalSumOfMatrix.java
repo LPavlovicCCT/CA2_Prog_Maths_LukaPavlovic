@@ -1,4 +1,4 @@
-class Test 
+class DiagonalSumOfMatrix
 {
     public static void main(String[]args)
     {

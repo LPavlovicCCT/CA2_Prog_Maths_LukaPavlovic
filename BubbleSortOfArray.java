@@ -1,4 +1,4 @@
-class Test 
+class BubbleSortOfArray
 {
     public static void main(String[]args)
     {
