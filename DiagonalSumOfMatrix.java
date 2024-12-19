@@ -22,9 +22,22 @@ class DiagonalSumOfMatrix
             }
             System.out.println();
         }
+        //print array (debug)
+        System.out.println(Arrays.deepToString(array));
 
-        System.out.println(Arrays.toString(array));
+        //iterate trough the matrix
+        int primaryDiagonal = 0;
+        int secondaryDiagonal = 0;
 
+        for (int i = 0; 1 < n; i++){
+            primaryDiagonal += array[i][i];
+            System.out.println(primaryDiagonal);
+            secondaryDiagonal += array[i][n-i-1];
+        }
+
+        //print results
+        System.out.println("Sum of all elements in the primary diagonal is =" + primaryDiagonal );
+        System.out.println("Sum of all elements in the secondary diagonal is =" + secondaryDiagonal);
 
         reader.close();
     }
