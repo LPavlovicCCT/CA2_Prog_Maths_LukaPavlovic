@@ -8,11 +8,10 @@ public class ArraySearch
         // Take input as array lenght and then array members, then find first repeated element in the array
         //init scanner
         Scanner reader = new Scanner(System.in);
-        int lenght = reader.nextInt();
 
         //ask for lenght and members
         System.out.println("What is the lenght of array?");
-
+        int lenght = reader.nextInt();
         //make array 
         int[] array = new int[lenght];
         
@@ -35,13 +34,14 @@ public class ArraySearch
                 for (int j = i + 1; j < lenght; j++){
                     if (array[i] == array[j]) {
                         //prints the repeating member
-                        System.out.println("Repeating element is " + array[i]);
+                        System.out.println("First repeating element is " + array[i]);
                         repeater = true;
                         break;
                     }
                 }
             }
         }
+        if (repeater == false) {System.out.println("No repeating elements");}
         // close scanner
         reader.close();
     }
