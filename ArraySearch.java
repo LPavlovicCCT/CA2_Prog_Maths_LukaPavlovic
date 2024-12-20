@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class ArraySearch 
 {
-    public static void main(String[]args)
+    public static void main()
     {
         // Take input as array lenght and then array members, then find first repeated element in the array
         //init scanner

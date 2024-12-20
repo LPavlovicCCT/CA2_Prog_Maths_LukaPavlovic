@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 class DiagonalSumOfMatrix
 {
-    public static void main(String[]args)
+    public static void main()
     {
         //calculate sum of main diagonal and secondary diagonal from a square matrix from user input
         Scanner reader = new Scanner(System.in);

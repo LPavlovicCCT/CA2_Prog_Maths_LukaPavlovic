@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 class SpiralTraversalOfMatrix
 {
-    public static void main(String[]args)
+    public static void main()
     {
         //traverse a matrix in spiral order
         //user inpout is dimentsions first then elements
