@@ -4,10 +4,10 @@ class MultiplicationTable
 {
     public static void main()
     {
-        Scanner tableSize = new Scanner(System.in);
+        Scanner reader = new Scanner(System.in);
         //generate a multiplcation table using a 2Darray
         System.out.print("What size Multiplication table do you need? (nxn) n=");
-        int n = tableSize.nextInt();
+        int n = reader.nextInt();
 
         //user defined size of table nxn
         int[][] multTable = new int[n][n];
@@ -26,7 +26,5 @@ class MultiplicationTable
             }
             System.out.println();
         }
-
-        tableSize.close();
     }
 };

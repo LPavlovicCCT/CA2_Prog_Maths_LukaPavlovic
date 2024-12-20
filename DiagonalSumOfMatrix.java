@@ -38,6 +38,5 @@ class DiagonalSumOfMatrix
         System.out.println("Sum of all elements in the primary diagonal is = " + primaryDiagonal );
         System.out.println("Sum of all elements in the secondary diagonal is = " + secondaryDiagonal);
 
-        reader.close();
     }
 };

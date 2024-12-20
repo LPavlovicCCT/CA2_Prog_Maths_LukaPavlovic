@@ -6,9 +6,10 @@ public class ArraySearch
     public static void main()
     {
         // Take input as array lenght and then array members, then find first repeated element in the array
+
         //init scanner
         Scanner reader = new Scanner(System.in);
-
+        
         //ask for lenght and members
         System.out.println("What is the lenght of array?");
         int lenght = reader.nextInt();
@@ -42,7 +43,5 @@ public class ArraySearch
             }
         }
         if (repeater == false) {System.out.println("No repeating elements found.");}
-        // close scanner
-        reader.close();
     }
 };

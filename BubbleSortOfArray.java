@@ -42,7 +42,5 @@ class BubbleSortOfArray
         // print sorted loop and number of swaps
         System.out.println("Sorted array is : "+Arrays.toString(array));
         System.out.println("Number of swaps done is : "+swaps);
-
-        reader.close();
     }
 }
