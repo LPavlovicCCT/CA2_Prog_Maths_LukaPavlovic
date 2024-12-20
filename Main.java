@@ -1,3 +1,7 @@
+
+//repo link
+//https://github.com/LPavlovicCCT/CA2_Prog_Maths_LukaPavlovic
+
 import java.util.Scanner;
 
 public class Main {
@@ -36,7 +40,7 @@ public class Main {
             //ask to go again
             System.out.println("\nWould you like to go again? [Y/N]");
 
-            
+            // picking only the firdst char out of the inpuy in case the user tyepos "yes" or "no"
             char pick = reader.next(".").charAt(0);
 
             //sets repeat var to false to stop the while loop
