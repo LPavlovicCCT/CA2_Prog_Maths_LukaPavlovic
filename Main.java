@@ -34,7 +34,7 @@ public class Main {
             else {System.out.println( "Thats not a valid choice.");}
 
             //ask to go again
-            System.out.println("would you like to go again? [Y/N]");
+            System.out.println("\nWould you like to go again? [Y/N]");
 
             
             char pick = reader.next(".").charAt(0);
